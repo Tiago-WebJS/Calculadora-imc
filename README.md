@@ -19,7 +19,7 @@ VSCode: instale a extensão "Extension Pack for Java" e abra a pasta normalmente
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/SEU_USUARIO/calculadora-imc.git
+git clone https://github.com/Tiago-WebJS/Calculadora-imc
 cd calculadora-imc
 
 # O projeto pode ser rodado de diferentes formas:
