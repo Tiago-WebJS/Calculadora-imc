@@ -65,14 +65,14 @@ java/
 br/
 edu/
 uniceub/
-Main.Java
-SistemaIMC.java
-CalculadoraRecurso.java
-Pessoa.java
-PessoaBase.java
-Atleta.java
-Historico.java
-EntradaInvalidaException.java
+Main.Java__
+SistemaIMC.java __
+CalculadoraRecurso.java__
+Pessoa.java__
+PessoaBase.java__
+Atleta.java__
+Historico.java__
+EntradaInvalidaException.java__
 README.md
 
 
