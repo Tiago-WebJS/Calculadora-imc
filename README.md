@@ -31,12 +31,13 @@ mvn exec:java
 Modo 2 – Compilar e executar direto:
 mvn clean compile exec:java
 
-# Pode acessar direto pelo JAR
+# Pode acessar direto pelo JAR 
 Modo 3 – Usando o JAR gerado:
+mvn clean package (se quiser gerar o JAR do zero coloque primeiro)
 java -jar target/calculadora-imc-1.0-SNAPSHOT.jar
 
 # Executar também dessa forma pois o pacote está dentro do br.edu.imc.Main. No VSCODE funciona perfeitamente também.
-mvn exec:java "-Dexec.mainClass=br.edu.imc.Main"
+mvn exec:java "-Dexec.mainClass=br.edu.uniceub.Main"
 ```
 DEMONSTRAÇÃO DE USO AO EXECUTAR:
 ┌───────────────────────────────┐
@@ -55,6 +56,26 @@ Escolha: 1
 Nome: .....
 obs: Ao colocar a altura, não usar ponto e sim virgula ex: 1,80
 
+## ESTRUTURA DO PROJETO
+Calculadora-imc
+pom.xml
+src/
+main/
+java/
+br/
+edu/
+uniceub/
+Main.Java
+SistemaIMC.java
+CalculadoraRecurso.java
+Pessoa.java
+PessoaBase.java
+Atleta.java
+Historico.java
+EntradaInvalidaException.java
+README.md
+
+
 ## CONCEITOS APLICADOS
 Neste projeto foram aplicados diversos conceitos de Programação Orientada a Objetos (POO).
 
@@ -67,3 +88,8 @@ O polimorfismo se manifesta nos métodos sobrescritos para exibir informações 
 A abstração está presente na classe PessoaBase, que define a estrutura comum para as demais classes
 
 Além disso, o projeto está organizado em pacotes e classes com responsabilidades bem definidas, reforçando boas práticas de modularização e reutilização de código.
+
+## 📄 Licença
+
+Projeto acadêmico/livre — sinta-se à vontade para usar e modificar.
+'@ | Set-Content -Path README.md -Encoding UTF8
