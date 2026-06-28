@@ -1,4 +1,4 @@
-package main.java;
+package br.edu.uniceub;
 
 import java.util.Scanner;
 

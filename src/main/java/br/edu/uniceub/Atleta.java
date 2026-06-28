@@ -1,4 +1,4 @@
-package main.java;
+package br.edu.uniceub;
 
 public class Atleta extends PessoaBase implements CalculadoraIMC {
 

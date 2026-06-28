@@ -1,4 +1,4 @@
-package main.java;
+package br.edu.uniceub;
 
 public interface CalculadoraIMC {
     double calcularIMC();
