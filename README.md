@@ -39,7 +39,7 @@ java -jar target/calculadora-imc-1.0-SNAPSHOT.jar
 # Executar também dessa forma pois o pacote está dentro do br.edu.imc.Main. No VSCODE funciona perfeitamente também.
 mvn exec:java "-Dexec.mainClass=br.edu.uniceub.Main"
 ```
-DEMONSTRAÇÃO DE USO AO EXECUTAR:
+```DEMONSTRAÇÃO DE USO AO EXECUTAR:
 
 +------------------------+
 |   Calculadora de IMC   |
