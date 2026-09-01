@@ -63,7 +63,7 @@ Escolha: 1
 Nome: .....
 obs: Ao colocar a altura, não usar ponto e sim virgula ex: 1,80
 
-## ESTRUTURA DO PROJETO
+```## ESTRUTURA DO PROJETO
 Calculadora-imc
 pom.xml
 src/
