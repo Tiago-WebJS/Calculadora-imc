@@ -53,10 +53,6 @@ mvn exec:java "-Dexec.mainClass=br.edu.uniceub.Main"
 | 4. Sair                |
 +------------------------+
 
-Escolha: 1
---- Cadastrar Pessoa ---
-Nome: .....
-obs: Ao colocar a altura, não usar ponto e sim virgula ex: 1,80
 ```
 ```Escolha: 1
 ── Cadastrar Pessoa ──
