@@ -40,17 +40,17 @@ java -jar target/calculadora-imc-1.0-SNAPSHOT.jar
 mvn exec:java "-Dexec.mainClass=br.edu.uniceub.Main"
 ```
 DEMONSTRAÇÃO DE USO AO EXECUTAR:
-┌───────────────────────────────┐
++───────────────────────────────+
 │       Calculadora de IMC      │
 │         POO - UNICEUB         │
-└───────────────────────────────┘
++───────────────────────────────+
 
-├───────────────────────────────┤
++───────────────────────────────+
 │ 1. Cadastrar Pessoa           │
 │ 2. Cadastrar Atleta           │
 │ 3. Ver Histórico              │
 │ 4. Sair                       │
-└───────────────────────────────┘
++───────────────────────────────+
 Escolha: 1
 ── Cadastrar Pessoa ──
 Nome: .....
