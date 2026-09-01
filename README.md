@@ -58,7 +58,7 @@ Escolha: 1
 Nome: .....
 obs: Ao colocar a altura, não usar ponto e sim virgula ex: 1,80
 ```
-Escolha: 1
+```Escolha: 1
 ── Cadastrar Pessoa ──
 Nome: .....
 obs: Ao colocar a altura, não usar ponto e sim virgula ex: 1,80
